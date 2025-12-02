@@ -3,8 +3,8 @@
 
 
 ### TL;DR
-VoiceCraft-Dub **synthesizes high-quality speech** from **text and facial cues**. Unlike text-to-speech, which generates diverse speech based on target text, VoiceCraft-Dub requires synthesized speech to be temporally and expressively aligned with the video while maintaining naturalness and intelligibility
-![img.png](img.png)
+VoiceCraft-Dub **synthesizes high-quality speech** from **text and facial cues**. Unlike text-to-speech, which generates diverse speech based on target text, VoiceCraft-Dub requires synthesized speech to be temporally and expressively aligned with the video while maintaining naturalness and intelligibility.
+<img width="2316" height="701" alt="Image" src="https://github.com/user-attachments/assets/c216703b-a28a-4cc9-83e7-980facfa38b9" />
 
 ## Getting started
 This code was developed on Ubuntu 18.04 with Python 3.9.16, CUDA 11.7 and PyTorch 2.0.1. 
@@ -105,7 +105,7 @@ Given the **./samples/trainval**, which is the source dataset, the following cod
 cd data
 sh preprocess_data.sh
 ```
-More details are in ./data directory. 
+More details are in [README.md](https://github.com/kaist-ami/voicecraft-dub/tree/main/data) in the ./data directory. 
 
 
 ## How to run training
